@@ -8,25 +8,25 @@
 {
 	"SpecialPlayer"
 	{
-		"en"		"{green}Gold KingZ {grey2}| {darkred}test {darkred}Your name is not listed in the {lime}special players list"
-		"ru"			"{green}Gold KingZ {grey2}| {darkred}Вы не можете скрыть баннер, вы не {lime}V.I.P"
+		"en"		"{green}Gold KingZ {grey}| {darkred}Your name is not listed in the {lime}special players list"
+		"ru"			"{green}Gold KingZ {grey}| {darkred}Вы не можете скрыть баннер, вы не {lime}V.I.P"
 	}
 	
 	"FlagVIP"
 	{
-		"en"		"{green}Gold KingZ {grey2}| {darkred}test You Cant Hide Banner, You Are Not {lime}V.I.P"
-		"ru"			"{green}Gold KingZ {grey2}| {darkred}Вы не можете скрыть баннер, вы не {lime}V.I.P"
+		"en"		"{green}Gold KingZ {grey}| {darkred}You Cant Hide Banner, You Are Not {lime}V.I.P"
+		"ru"			"{green}Gold KingZ {grey}| {darkred}Вы не можете скрыть баннер, вы не {lime}V.I.P"
 	}
 	
 	"BannerOn"
 	{
-		"en"		"{green}Gold KingZ {grey2}| test Server Banner is {lime}On"
-		"ru"			"{green}Gold KingZ {grey2}| Баннер сервера {lime}На"
+		"en"		"{green}Gold KingZ {grey}| Server Banner is {lime}On"
+		"ru"			"{green}Gold KingZ {grey}| Баннер сервера {lime}На"
 	}
 	
 	"BannerOff"
 	{
-		"en"		"{green}Gold KingZ {grey2}| teest Server Banner is {darkred}Off"
-		"ru"			"{green}Gold KingZ {grey2}| Баннер сервера {darkred}Выключенный"
+		"en"		"{green}Gold KingZ {grey}| Server Banner is {darkred}Off"
+		"ru"			"{green}Gold KingZ {grey}| Баннер сервера {darkred}Выключенный"
 	}
 }
