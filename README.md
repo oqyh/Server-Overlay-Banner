@@ -47,9 +47,13 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 ```
 
 ## .:[ Tutorial ]:.
+[I'm an inline-style link](https://www.google.com)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cV-qOZvUrhI/0.jpg)](https://www.youtube.com/watch?v=cV-qOZvUrhI)
 
+```
+1- make sure you have template 
+```
 
 ## .:[ Change Log ]:.
 ```
