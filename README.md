@@ -57,7 +57,9 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup.png)
 
 3- After you done make sure you delete/hide template and save files as PNG.
+
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup2.png)
+
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup3.png)
 
 4- Download [VTFEdit](https://github.com/NeilJed/VTFLib) and use x86 or x64 depend on your pc.
