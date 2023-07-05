@@ -3,7 +3,7 @@ https://forums.alliedmods.net/showthread.php?t=342531
 
 ### Toggle On/Off Server Banner with flags or vip list (...more)
 
-![banner](https://github.com/oqyh/Server-Overlay-Banner/assets/48490385/e98e1650-b825-4c3d-b6d3-772ccfc51eec)
+![banner](https://github.com/oqyh/Server-Overlay-Banner/assets/48490385/1dc63c23-25f9-4ea2-a302-ca93270986df)
 
 
 ## .:[ ConVars ]:.
