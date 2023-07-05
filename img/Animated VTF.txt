@@ -1,0 +1,9 @@
+	"Proxies"
+    {
+        "AnimatedTexture"
+        {
+            "animatedTextureVar" "$basetexture"
+            "animatedTextureFrameNumVar" "$frame"
+            "animatedTextureFrameRate" "1"
+        }
+    }
