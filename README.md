@@ -1,5 +1,5 @@
 # [ANY] Server Overlay Banner (1.0.0)
-https://forums.alliedmods.net/showthread.php?t=342531
+https://forums.alliedmods.net/showthread.php?p=2806823
 
 ### Toggle On/Off Server Banner with flags or vip list (...more)
 
