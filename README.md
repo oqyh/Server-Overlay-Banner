@@ -51,7 +51,7 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cV-qOZvUrhI/0.jpg)](https://www.youtube.com/watch?v=cV-qOZvUrhI)
 
 
-1- make sure you have template [Download]([https://www.google.com](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/template%20.png)) or just go to any game and screen shot ***3840x2160*** resolution.
+1- make sure you have [template](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/template%20.png) or just go to any game and screen shot ***3840x2160*** resolution.
 
 2- Make new project in photoshop with transparent background, then edit photo as you like and let template guide you.
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup.png)
