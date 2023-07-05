@@ -49,7 +49,7 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cV-qOZvUrhI/0.jpg)](https://www.youtube.com/watch?v=cV-qOZvUrhI)
 
-```
+
 1- make sure you have template [Download]([https://www.google.com](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/template%20.png)) or just go to any game and screen shot ***3840x2160*** resolution.
 
 2- Make new project in photoshop with transparent background, then edit photo as you like and let template guide you.
@@ -60,7 +60,7 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup3.png)
 
 4- Download [VTFEdit](https://github.com/NeilJed/VTFLib) and use x86 or x64 depend on your pc.
-
+```
 5- Before you do anything you must enable "View"->"Mask" To see the result of transparency in real time after importing PNG (green, black,white) means not good image transparent.
 6- Also Disable "Options"->"Auto Create VMT File" To disable auto create VMT will will do it manually.
 
@@ -69,9 +69,10 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 9- After that "Tools"->"Create VMT File"->"Textures" press on browser of "Base Texture 1" and locate VTF + we make sure path not included csgo/materials.
 10- Then "Tools"->"Create VMT File"->"Options" make sure "Shader > UnlitGeneric" + Tick/Enable on Translucent then save save VTF located.
 11- You will have now 2 files .VTF and .VMT at same path.
+```
 12- Now if you want animated open .VMT and add [These Lines](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/Animated%20VTF.txt) under "$translucent" 1 and edit "animatedTextureFrameRate" "X" For how many frames.
 13- Uploaded it both server and FASTDL and make sure edit "Server-Overlay-Banner.cfg > ov_overlay_path" add path and file name without .VTF or .VMT at end.
-```
+
 
 ## .:[ Change Log ]:.
 ```
