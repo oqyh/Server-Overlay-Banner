@@ -47,9 +47,9 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 ```
 
 ## .:[ Tutorial ]:.
-```
+
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cV-qOZvUrhI/0.jpg)](https://www.youtube.com/watch?v=cV-qOZvUrhI)
-```
+
 
 ## .:[ Change Log ]:.
 ```
