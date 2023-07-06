@@ -49,31 +49,43 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cV-qOZvUrhI/0.jpg)](https://www.youtube.com/watch?v=cV-qOZvUrhI)
 
 
-1- make sure you have [template](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/template%20.png) or just go to any game and screen shot ***3840x2160*** resolution.
+1- Make sure you have [template](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/template%20.png) or just go to any game and screen shot ***3840x2160*** resolution.
 
-2- Make new project in photoshop with transparent background, then edit photo as you like and let template guide you.
+2- Open photoshop/any edit program with transparent background ***3840x2160***.
+
+![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/projectres.png)
+
+3- Now import template and let it guide you where to locate banner at screen.
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup.png)
 
-3- After you done make sure you delete/hide template and save files as PNG.
+4- After you done make sure you delete/hide template and save files as PNG.
 
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup2.png)
 
 ![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/lineup3.png)
 
-4- Download [VTFEdit](https://github.com/NeilJed/VTFLib) and use x86 or x64 depend on your pc.
+5- Download [VTFEdit](https://github.com/NeilJed/VTFLib) and use x86 or x64 depend on your pc.
 ```
-5- Before you do anything you must enable "View"->"Mask" To see the result of transparency in real time after importing PNG (green, black,white) means not good image transparent.
-6- Also Disable "Options"->"Auto Create VMT File" To disable auto create VMT will will do it manually.
-
-7- Play PNGs and see which number is ended/lays do you like to add if you want animated.
-8- Then "File"->"Save As..." and name the file + locate where you want to put VTF path then save it and remember the path + file name.
-9- After that "Tools"->"Create VMT File"->"Textures" press on browser of "Base Texture 1" and locate VTF + we make sure path not included csgo/materials.
-10- Then "Tools"->"Create VMT File"->"Options" make sure "Shader > UnlitGeneric" + Tick/Enable on Translucent then save save VTF located.
-11- You will have now 2 files .VTF and .VMT at same path.
+6- Before you do anything you must enable "View"->"Mask" To see the result of transparency in real time after importing PNG (green or black or white) transparency means not good image transparent.
+7- Also Disable "Options"->"Auto Create VMT File" To disable auto create VMT will will do it manually.
 ```
-12- Now if you want animated open .VMT and add [These Lines](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/Animated%20VTF.txt) under "$translucent" 1 and edit "animatedTextureFrameRate" "X" For how many frames.
+8- After That "File"->""Import" with following settings
 
-13- Uploaded it both server and FASTDL and make sure edit "Server-Overlay-Banner.cfg > ov_overlay_path" add path and file name without .VTF or .VMT at end.
+![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/VTFEdit-1.png)
+
+![alt text](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/VTFEdit-2.png)
+
+```
+9- Play with PNGs and see which number is ended/layers do you like to add if you want animated later in .VMT file at "animatedTextureFrameRate".
+10- Then "File"->"Save As..." and name the file + locate where you want to put VTF path then save it and remember the path + file name.
+11- After that "Tools"->"Create VMT File"->"Textures" press on browser of "Base Texture 1" and locate VTF + we make sure path not included csgo/materials.
+12- Then "Tools"->"Create VMT File"->"Options" make sure "Shader > UnlitGeneric" + Tick/Enable on Translucent then press on "Create".
+13- You will have now 2 files .VTF and .VMT at same path.
+```
+
+14- Now if you want animated open .VMT and add [These Lines](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/Animated%20VTF.txt) under "$translucent" 1 and edit "animatedTextureFrameRate" "X" For how many frames.
+
+15- Uploaded it both server and FASTDL and make sure edit "Server-Overlay-Banner.cfg > ov_overlay_path" add path and file name without .VTF or .VMT at end.
 
 
 ## .:[ Change Log ]:.
