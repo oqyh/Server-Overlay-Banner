@@ -72,6 +72,7 @@ ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 11- You will have now 2 files .VTF and .VMT at same path.
 ```
 12- Now if you want animated open .VMT and add [These Lines](https://github.com/oqyh/Server-Overlay-Banner/blob/main/img/Animated%20VTF.txt) under "$translucent" 1 and edit "animatedTextureFrameRate" "X" For how many frames.
+
 13- Uploaded it both server and FASTDL and make sure edit "Server-Overlay-Banner.cfg > ov_overlay_path" add path and file name without .VTF or .VMT at end.
 
 
