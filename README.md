@@ -40,8 +40,6 @@ ov_steamid_list_path "configs/viplist.txt"
 //==========================================================================================
 
 // [if ov_enable_toggle 0 or 1 or 2] which commands would you like to make it  toggle on/off hide banner (need restart server)
-// -
-// Default: "sm_hidebanner;sm_bannerhide;sm_banner"
 ov_cmd "sm_hidebanner;sm_bannerhide;sm_banner"
 ```
 
