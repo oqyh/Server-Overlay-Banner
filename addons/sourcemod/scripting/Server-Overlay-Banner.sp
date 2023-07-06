@@ -171,9 +171,6 @@ public Action Timer_Banner(Handle timer, any client)
 		onetime[client] = false;
 	}
 	
-	char zFlags[32];
-	GetConVarString(g_hFlags, zFlags, sizeof(zFlags));
-	
 	if(RefreshBanner == true)
 	{
 		onetime[client] = false;
@@ -185,10 +182,16 @@ public Action Timer_Banner(Handle timer, any client)
 		onetime[client] = false;
 	}
 	
-	if(g_btoggles == 2 || g_btoggles == 3 && DisableBanner[client] == true && !CheckAdminFlagsByString(client, zFlags) || PlayerIsSpecial[client] == false)
+	char zFlags[32];
+	GetConVarString(g_hFlags, zFlags, sizeof(zFlags));
+	if(g_btoggles == 2 && DisableBanner[client] == true && !CheckAdminFlagsByString(client, zFlags))
 	{
-		if(g_btoggles == 1)return Plugin_Continue;
-		
+		DisableBanner[client] = false;
+		onetime[client] = false;
+	}
+	
+	if(g_btoggles == 3 && DisableBanner[client] == true && PlayerIsSpecial[client] == false)
+	{
 		DisableBanner[client] = false;
 		onetime[client] = false;
 	}
